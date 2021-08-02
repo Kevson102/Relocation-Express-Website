@@ -90,8 +90,23 @@ form{
 }
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #90EE90;
+    margin-top: 25px;
+    text-align: center;
 }
 #follow{
     display: flex;
+}
+#first{
+    padding-top: 60px;
+}
+#second{
+    margin: 20px;
+    border-left: 3px dashed #4C9BA0;
+    padding-left: 30px;
+    text-align: left;
+}
+#contacts>p{
+    margin: 0;
 }
