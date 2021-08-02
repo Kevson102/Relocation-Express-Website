@@ -4,6 +4,8 @@
     background-color: #90EE90;
 }
 .welcome_note{
+    position: relative;
+    top: 15px;
     width: 350px;
     border: 1px solid black;
     text-align: center;
@@ -29,6 +31,15 @@ ol>li{
 }
 div>ol>p{
     margin: 10px;
+}
+.At_a_glance{
+    width: 450px;
+    height: 515px;
+    border: 1px solid black;
+    position: relative;
+    left: 34%;
+    bottom: 530px;
+    text-align: center;
 }
 /*em{
     font-size: 20px;
