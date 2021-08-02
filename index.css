@@ -3,3 +3,14 @@
     justify-content: space-around;
     background-color: #90EE90;
 }
+.welcome_note{
+    width: 350px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color:rgb(196, 216, 17)
+}
+/*em{
+    font-size: 20px;
+}
