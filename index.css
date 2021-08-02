@@ -1,17 +1,19 @@
+body{
+    background-color: #F1F3F3;
+}
 .header{
     display: flex;
     justify-content: space-around;
     background-color: #90EE90;
 }
 .welcome_note{
-    position: relative;
-    top: 15px;
-    width: 350px;
+    background-color: #C4C4C4;
     border: 1px solid black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     color:rgb(196, 216, 17)
+    
 }
 .faqs{
     width: 450px;
@@ -19,10 +21,15 @@
     border: 1px;
     border-radius: 15%;
     overflow: scroll;
+    background-color: #C4C4C4;
+    margin-top: 10px;
 }
-.faqs>h3{
+.faqs>h3, .place_order>h3{
     text-align: center;
     font-size: 20px;
+}
+.place_order>h3{
+    margin: 0;
 }
 ol>li{
     font-size: 20px;
@@ -33,13 +40,40 @@ div>ol>p{
     margin: 10px;
 }
 .At_a_glance{
-    width: 450px;
+    width: 500px;
     height: 515px;
     border: 1px solid black;
-    position: relative;
-    left: 34%;
-    bottom: 530px;
     text-align: center;
+    background-color: #C4C4C4;
+    border-radius: 25%;
+}
+.page1{
+    display: flex;
+    justify-content: space-around;
+}
+.place_order>p{
+    text-align: center;
+    color: #44C851;
+    font-size: 15px;
+}
+form{
+    margin: 1%;
+}
+.place_order{
+    display: flex;
+}
+.button{
+    position: relative;
+    top: 145px;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30%;
+    background-color: #2EB718;
+}
+.button>p{
+    margin: 0;
 }
 /*em{
     font-size: 20px;
