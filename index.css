@@ -11,6 +11,9 @@ a{
     color: white;
     font-size: 20px;
 }
+a:hover{
+    color: rgb(216, 53, 202);
+}
 .welcome_note{
     background-color: #90EE90;
     opacity: 0.5;
@@ -89,6 +92,9 @@ form{
     border-radius: 70%;
     background-color: #2EB718;
     color: black;
+}
+#button:hover{
+    background-color: yellow;
 }
 .ribbon{
     color: rgb(21, 22, 20);
