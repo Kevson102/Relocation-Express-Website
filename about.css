@@ -1,4 +1,7 @@
-body{
+*{
+    font-family: 'poppins';
+}
+.main{
     margin: 50px;
 }
 img{
@@ -46,7 +49,7 @@ em{
 }
 .service-1{
     width: 300px;
-    height: 400px;
+    height: 450px;
     text-align: center;
     margin: 30px;
     border: 5px solid green;
@@ -86,5 +89,42 @@ em{
     opacity: .7;
     color: black;
     padding: 10px;
+}
+
+.header{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: green; 
+  
+}
+.header img{
+    height: 100px;
+}
+li,a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0ed;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+     
+}
+.links{
+    list-style: none;
+
+}
+.links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.links li a:hover{
+    color: black;
+    border-bottom: 3px solid black;
 }
 
