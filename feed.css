@@ -8,9 +8,9 @@
     justify-content: space-between;
     
     }
-    a{
+a{
         text-decoration: none;
-    }
+}
     
     a:hover{
         color: red;
@@ -22,7 +22,10 @@
         justify-content: flex-start;
     
     }
-    
+    .responses{
+        display: flex;
+        justify-content: space-between;
+        }
     
     
     
@@ -67,3 +70,21 @@
     }
     
     
+    
+    .header ul{
+        background-color: #90ee90;
+        margin-left: 130px;
+        padding: 30px;
+        justify-content: space-around;
+        margin-top: -85px;
+
+    }
+#list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.vert{
+    height: 140px;
+    border: 2px dotted black;
+}
