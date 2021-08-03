@@ -7,17 +7,17 @@ body{
     background-color: #90EE90;
 }
 .welcome_note{
-    background-color: #C4C4C4;
-    border: 1px solid black;
+    background-color: #90EE90;
+    opacity: 0.5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    color:rgb(196, 216, 17)
+    color:rgb(216, 17, 206)
     
 }
 .faqs{
     width: 450px;
-    height: 350px;
+    height: 474px;
     border: 1px;
     border-radius: 15%;
     overflow-y: scroll;
@@ -44,13 +44,20 @@ div>ol>p{
 }
 .At_a_glance{
     width: 500px;
-    height: 515px;
+    height: 480px;
     border: 1px solid black;
     text-align: center;
     background-color: #C4C4C4;
     opacity: 0.8;
     border-radius: 25%;
+    overflow-y: hidden;
+    margin-top: 10px;
 }
+.At_a_glance>marquee>h4{
+    color: darkgreen;
+    font-size: larger;
+}
+
 .page1{
     display: flex;
     justify-content: space-around;
@@ -62,7 +69,7 @@ div>ol>p{
     font-weight: bold;
 }
 form{
-    margin: 1%;
+    margin: 3%;
 }
 .place_order{
     display: flex;
@@ -83,7 +90,7 @@ form{
     color: rgb(21, 22, 20);
     text-align: center;
     background-color: #E0E061;
-    margin: 5px;
+    margin-top: 12px;
     padding: 0.5px;
     font-size: 120%;
     font-weight: bold;
