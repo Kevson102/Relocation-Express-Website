@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90EE90;
+}
+.middle{
+    height: 200px;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 95px;
+}
