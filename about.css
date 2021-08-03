@@ -1,0 +1,135 @@
+*{
+    font-family: 'poppins';
+}
+.main{
+    margin: 50px;
+    
+}
+#pic{
+    float: left;
+     margin-right: 40px;
+     height: 350px;
+}
+
+
+.inside-content1 h2{
+    text-align: center;
+    border-bottom: 5px solid green;
+    height: 50px;
+    font-size: 27px;
+
+}
+.inside-content1 p{
+    text-align: center;
+    font-size: 20px;
+    
+}
+em{
+    color: green;
+}
+.inside-content2{
+    clear: both;
+}
+.inside-content2 h3{
+    font-size: 25px;
+    text-align: center;
+    color: green;
+}
+.inside-content2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.cont-2{
+    display: flex;
+}
+
+#head{
+   text-align: center;
+   color: green;
+   
+}
+.service-1{
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    margin: 30px;
+    border: 5px solid green;
+    border-radius: 5px;
+    margin-top: 0;
+}
+#part{
+
+    opacity: .7;
+    padding: 10px;
+}
+
+
+
+
+.header{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: green; 
+   
+   
+}
+.header img{
+    height: 100px;
+}
+li,a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0ed;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+     
+}
+.links{
+    list-style: none;
+
+}
+.links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.links li a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+footer{
+    
+    background-color: green;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+#follow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+#follow img{
+    padding: 10px;
+}
+#rights{
+    text-align: center;
+}
+#who{
+    width: 300px;
+    
+}
+#who h3{
+    text-align: center;
+}
