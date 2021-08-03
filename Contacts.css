@@ -12,3 +12,30 @@
     text-align: center;
     padding-top: 95px;
 }
+.last{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+#follow{
+    display: flex;
+}
+#first{
+    padding-top: 60px;
+}
+#second{
+    margin: 20px;
+    border-left: 3px dashed #4C9BA0;
+    padding-left: 30px;
+    text-align: left;
+}
+#contacts>p, #description>p{
+    margin: 0;
+}
