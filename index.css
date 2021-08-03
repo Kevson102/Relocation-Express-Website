@@ -5,7 +5,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #90EE90;
+    background-color: green;
+}
+a{
+    color: white;
+    font-size: 20px;
 }
 .welcome_note{
     background-color: #90EE90;
@@ -45,8 +49,7 @@ div>ol>p{
 }
 .At_a_glance{
     width: 500px;
-    height: 480px;
-    border: 1px solid black;
+    height: 470px;
     text-align: center;
     background-color: #C4C4C4;
     opacity: 0.8;
