@@ -4,7 +4,7 @@
 .main{
     margin: 50px;
 }
-img{
+#pic{
     float: left;
      margin-right: 40px;
      height: 350px;
@@ -96,7 +96,7 @@ em{
    margin: 0;
    padding: 0;
    background-color: green; 
-  
+   
 }
 .header img{
     height: 100px;
@@ -129,7 +129,31 @@ nav{
 }
 
 footer{
+    
+    background-color: green;
+}
+.last{
     display: flex;
     justify-content: space-between;
+    margin: 0 30px;
 }
 
+#follow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+#follow img{
+    padding: 10px;
+}
+#rights{
+    text-align: center;
+}
+#who{
+    width: 300px;
+    
+}
+#who h3{
+    text-align: center;
+}
