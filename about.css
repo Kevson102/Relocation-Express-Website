@@ -128,3 +128,8 @@ nav{
     border-bottom: 3px solid black;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
