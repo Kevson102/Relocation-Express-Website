@@ -3,7 +3,8 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #90EE90;
 }
 .welcome_note{
