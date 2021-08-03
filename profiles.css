@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins';
+}
+.empty{
+    width: 100%;
+    height: 100px;
+}
+body{
+    margin-top: 0px;
+    padding-top:0px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+ }
+ .header img{
+     height: 100px;
+ }
+ li,a{
+     font-weight: 500;
+     font-size: 20px;
+     color: #EDF0ED;
+     text-decoration: none;
+ }
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+ }
+ .links{
+     list-style: none;
+ }
+ .links li{
+     display: inline-block;
+     padding: 0 20px;
+ }
+ .links li a:hover{
+     color: black;
+     border-bottom: 3px solid black;
+}
+h1{
+    color: black;
+    background-color: cadetblue;
+    background-image: linear-gradient(cadetblue,  whitesmoke);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    background-color: whitesmoke;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+.driver{
+    height: auto;
+    width:350px;
+    background-color: rgb(171, 233, 219);
+    margin:10px;
+    margin-bottom: 30px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+#driver{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+    border: 5px solid black;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.name{
+    font-size: large;
+    font-weight: 900;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.location{
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.num{
+    font-size: large;
+    font-weight: 700;
+    color: rgb(13, 13, 121);
+
+}
+.rat{
+    padding:20px;
+    padding-top: 5px;
+
+}
+button{
+    background-color: green;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+footer{
+    background-color: green;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+#follow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#follow img{
+    padding: 10px;
+}
+#rights{
+    text-align: center;
+}
+#who{
+    width: 300px;
+}
+#who h3{
+    text-align: center;
+}
