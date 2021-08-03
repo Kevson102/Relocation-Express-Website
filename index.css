@@ -28,13 +28,12 @@ a:hover{
 }
 .faqs{
     width: 450px;
-    height: 474px;
+    height: 455px;
     border: 1px;
     border-radius: 15%;
     overflow-y: scroll;
     background-color: #C4C4C4;
     opacity: 0.8;
-    margin-top: 10px;
 }
 .faqs>h3, .place_order>h3{
     text-align: center;
@@ -55,13 +54,12 @@ div>ol>p{
 }
 .At_a_glance{
     width: 500px;
-    height: 470px;
+    height: 455px;
     text-align: center;
     background-color: #C4C4C4;
     opacity: 0.8;
     border-radius: 25%;
     overflow-y: hidden;
-    margin-top: 10px;
 }
 .At_a_glance>marquee>h4{
     color: darkgreen;
