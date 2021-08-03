@@ -1,9 +1,56 @@
 *{
     font-family: 'Poppins';
 }
+.empty{
+    width: 100%;
+    height: 100px;
+}
+body{
+    margin-top: 0px;
+    padding-top:0px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+ }
+ .header img{
+     height: 100px;
+ }
+ li,a{
+     font-weight: 500;
+     font-size: 20px;
+     color: #EDF0ED;
+     text-decoration: none;
+ }
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+ }
+ .links{
+     list-style: none;
+ }
+ .links li{
+     display: inline-block;
+     padding: 0 20px;
+ }
+ .links li a:hover{
+     color: black;
+     border-bottom: 3px solid black;
+}
 h1{
     color: black;
     background-color: cadetblue;
+    background-image: linear-gradient(cadetblue,  whitesmoke);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -81,8 +128,34 @@ button{
     background-color: green;
     color: white;
 }
-a{
+button a{
     text-decoration: none;
     background-color: green;
     color: white;
+}
+footer{
+    background-color: green;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+#follow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#follow img{
+    padding: 10px;
+}
+#rights{
+    text-align: center;
+}
+#who{
+    width: 300px;
+}
+#who h3{
+    text-align: center;
 }
