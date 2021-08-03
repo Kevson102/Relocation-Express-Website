@@ -116,6 +116,6 @@ footer{
     padding-left: 30px;
     text-align: left;
 }
-#contacts>p{
+#contacts>p, #description>p{
     margin: 0;
 }
