@@ -1,0 +1,69 @@
+.feed{
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    background-color: #90ee90;
+    max-width: 100%;
+    justify-content: space-between;
+    
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .grid1{
+        width: 300px;
+        padding-left: 20px;
+        justify-content: flex-start;
+    
+    }
+    
+    
+    
+    
+    .end p, ul li{
+        display: flex;
+        padding-right: 60px;
+        padding-top: 10px;
+    
+    }
+    
+    body{
+        font-family: sans-serif;
+    }
+    
+    .submit{
+        padding: 10px 20px;
+        background-color: cornflowerblue;
+        margin-left: 1000px;
+        color: #fff;
+    }
+    .feed2{
+        margin-top: 40px;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    
+    .follow{
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .new{
+        letter-spacing: 3px;
+        margin-left: 400px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .comment{
+        margin-top: 40px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        margin-left: 500px;
+    }
+    
+    
