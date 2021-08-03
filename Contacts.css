@@ -12,6 +12,12 @@
     text-align: center;
     padding-top: 95px;
 }
+.phone{
+    display: flex;
+}
+.email{
+    display: flex;
+}
 .last{
     display: flex;
     justify-content: space-evenly;
