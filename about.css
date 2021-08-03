@@ -107,6 +107,7 @@ nav{
 footer{
     
     background-color: green;
+    color: white;
 }
 .last{
     display: flex;
