@@ -14,7 +14,6 @@ a{
     
     a:hover{
         color: red;
-        text-decoration: underline;
     }
     .grid1{
         width: 300px;

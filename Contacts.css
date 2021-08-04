@@ -8,6 +8,41 @@ a{
     color: white;
     font-size: 20px;
 }
+.header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: green;  
+ }
+ .header img{
+     height: 100px;
+ }
+ li,a{
+     font-weight: 500;
+     font-size: 20px;
+     color: #edf0ed;
+     text-decoration: none;
+ }
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+      
+ }
+ .links{
+     list-style: none;
+ 
+ }
+ .links li{
+     display: inline-block;
+     padding: 0 20px;
+ 
+ }
+ .links li a:hover{
+     color: black;
+     border-bottom: 3px solid black;
+ }
 .middle{
     height: 200px;
     width: auto;
