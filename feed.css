@@ -68,17 +68,7 @@ a{
         font-weight: bold;
         margin-left: 500px;
     }
-    
-    
-    
-    .header ul{
-        background-color: #90ee90;
-        margin-left: 130px;
-        padding: 30px;
-        justify-content: space-around;
-        margin-top: -85px;
 
-    }
 #list{
     display: flex;
     justify-content: space-between;
@@ -87,4 +77,66 @@ a{
 .vert{
     height: 140px;
     border: 2px dotted black;
+}
+
+.header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: green;  
+ }
+ .header img{
+     height: 100px;
+ }
+ li,a{
+     font-weight: 500;
+     font-size: 20px;
+     color: #edf0ed;
+     text-decoration: none;
+ }
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+      
+ }
+ .links{
+     list-style: none;
+ 
+ }
+ .links li{
+     display: inline-block;
+     padding: 0 20px;
+ 
+ }
+ .links li a:hover{
+     color: black;
+     border-bottom: 3px solid black;
+ }
+ footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+#follow{
+    display: flex;
+}
+#first{
+    padding-top: 60px;
+}
+#second{
+    margin: 20px;
+    border-left: 3px dashed #4C9BA0;
+    padding-left: 30px;
+    text-align: left;
+}
+#rights{
+    background-color: green;
+    margin-top: 0;
+    color: white;
+    text-align: center;
 }
