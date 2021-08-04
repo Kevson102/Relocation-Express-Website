@@ -84,3 +84,9 @@ footer{
 #contacts>p, #description>p{
     margin: 0;
 }
+#rights{
+    background-color: green;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
